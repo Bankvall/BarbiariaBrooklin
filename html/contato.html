@@ -27,20 +27,20 @@
            </div>
         </header>
          <main>
-             <form>
-                 <label for="nomesobrenome"> Nome e sobrenome</label>
-                 <input type="text" id="nomesobrenome">
+             <form> 
 
-                 <label for="email">Email</label>
-                 <input type="text" id="email">
-
-                 <label for="telefone">Telefone</label>
-                 <input type="text" id="telefone">
-
-                 <label for="mensagem">Mensagem</label>
-                 <textarea cols="70" rows="10" id="mensagem"></textarea>
-
+                <label for="nome">Seu nome: </label>
+                <input type="text" name="name" id="nome" placeholder="Ex: Elon Musk..." required>
         
+                <label for="email">Seu e-mail: </label>
+                <input type="email" name="email" id="email" placeholder="Ex: Elonmusk@gmail.com" required>
+        
+                <label for="tema">Tema de sua mensagem: </label>
+                <input type="text" name="theme" id="tema" placeholder="Ex: Horarios" required>
+        
+                <label for="message">Sua mensagem: </label>
+                <textarea name="message" placeholder="Sua mensagem"></textarea>
+       
                  <p>Como prefere o nosso contato?<p>
                  <label for="radio-email">Email</label>
                  <input type="radio" name="contato" value="email" id="radio-email">
@@ -52,7 +52,7 @@
                 <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
         
 
-             <label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+                <label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
 
                  <input type="submit" value="Enviar formulario">
              </form>
