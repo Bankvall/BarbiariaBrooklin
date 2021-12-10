@@ -73,7 +73,8 @@ header{
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    align-content: center;
+	align-content: center; 
+	background: linear-gradient(#FEFEFE, #888888);
 }  
 
 /* <---- beneficios ----> */
